@@ -88,7 +88,7 @@ const Home = () => {
               type="submit"
             >
           {isLoading ? (
-            <CgOpenCollective className="mr-2 animate-spin" />
+            <CgOpenCollective className="mr-2 animate-spin-slow" />
           ) : (
             <FiSearch className="mr-2" />
           )} 검색

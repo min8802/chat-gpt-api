@@ -20,7 +20,6 @@ const ChatList = () => {
           <ChatlistCard key={i} question={v.question} answer={v.answer} />
         ))}
       </ul>
-      {console.log(chatlist.question)}
     </div>
   );
 };
